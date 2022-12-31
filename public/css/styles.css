@@ -1,0 +1,129 @@
+/*共通レイアウト*/
+/* エラーメッセージ用のスタイル */
+.error{
+    color: red;
+}
+
+/* 成功メッセージ用のスタイル */
+.success{
+    color: green;
+}
+
+/*警告用メッセージ*/
+.warning{
+    color: red;
+}
+
+/*ログイン前後レイアウト*/
+.header_nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.header_nav li {
+    margin-right: 30px;
+}
+.header_nav a{
+    text-decoration: none;
+}
+
+
+/*ログインページ*/
+.login_window_box, .register_window_box{
+    margin-bottom: 10px;
+}
+
+
+/*トップページ*/
+.new_exhibit{
+    text-decoration: none;
+}
+
+.toppage_items li, .profile_history_items li, .exhibition_items li, .like_items li{
+    border-bottom: 2px solid #888888;
+    padding: 10px 0;
+}
+
+.toppage_items li:first-child, .profile_history_items li:first-child, .exhibition_items li:first-child, .like_items li:first-child{
+    border-top: 2px solid #888888;
+}
+
+.toppage_item, .exhibition_item, .like_item{
+    display: flex;
+}
+
+.toppage_items, .exhibition_items, .like_items{
+    list-style: none;
+}
+
+/*いいねボタン*/
+.like_button {
+    cursor: pointer;
+}
+
+.like {
+    display: inline;
+}
+
+
+/*プロフィールページ*/
+.profile_main{
+    display: flex;
+}
+
+.profile_main_left a, .profile_history a{
+    text-decoration: none;
+}
+
+.profile_main_right_name{
+    font-weight: bold;
+}
+
+.profile_history_items{
+    list-style: none;
+}
+
+.item_index{
+    font-weight: bold;
+}
+
+
+/*プロフィール編集画面*/
+.edit_profile_window{
+    width: 450px;
+    height: 150px;
+}
+
+
+/*出品商品一覧*/
+.link_edit_item a{
+    text-decoration: none;
+}
+
+/*新規出品フォーム*/
+.item_window_box, .item_index_box{
+    margin-bottom: 10px;
+}
+
+.item_description_window{
+    width: 450px;
+    height: 150px;
+}
+
+
+/*商品詳細*/
+.apology{
+    border: dashed 3px red;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+
+.apology div{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*購入完了画面*/
+.item_finish_to_top{
+    text-decoration: none;
+}
